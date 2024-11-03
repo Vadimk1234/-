@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    
+     <script src="https://en.js.cx/libs/animate.js"></script>
+  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Розклад уроків</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <!-- Бічне меню з днями тижня -->
+        <nav class="sidebar">
+            <ul id="day-list">
+                <li data-day="Понеділок">Понеділок</li>
+                <li data-day="Вівторок">Вівторок</li>
+                <li data-day="Середа">Середа</li>
+                <li data-day="Четвер">Четвер</li>
+                <li data-day="П'ятниця">П'ятниця</li>
+                <li data-day="Субота">Субота</li>
+                <li data-day="Неділя">Неділя</li>
+            </ul>
+        </nav>
+
+        <!-- Основна частина для додавання уроків -->
+        <div class="main-content">
+            <h2 id="selected-day-title">Понеділок</h2>
+
+            <!-- Виведення розкладу уроків -->
+            <div class="lesson-output">
+                <h3>Розклад на <span id="selected-day">Понеділок</span>:</h3>
+                <ul id="lesson-list"></ul>
+            </div>
+
+            <!-- Додавання нового уроку -->
+            <div class="input-section">
+                <h3>Додати урок:</h3>
+                <label for="lesson-input">Назва уроку:</label>
+                <input type="text" id="lesson-input" placeholder="Назва уроку">
+                <label for="homework-input">Домашнє завдання:</label>
+                <input type="text" id="homework-input" placeholder="Домашнє завдання">
+                <button id="add-lesson">Додати урок</button>
+            </div>
+
+            <!-- Видалення всіх уроків -->
+            <div class="delete-section">
+                <button id="delete-all-lessons">Видалити всі уроки</button>
+            </div>
+        </div>
+    </div>
+    <div id="field">
+    <img src="https://en.js.cx/clipart/ball.svg" width="40" height="40" id="ball">
+  </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
