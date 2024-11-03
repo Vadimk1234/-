@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bad9f1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    background-color: #80a9ca;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #7d87be;
+    cursor: pointer;
+    text-align: center;
+}
+
+.sidebar ul li:hover {
+    background-color: #1b74da;
+    border: #919191;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+h2, h3 {
+    margin-top: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #7b72ad;
+    color: rgb(214, 214, 214);
+    border: none;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    background-color: #5569aa;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #888dd1;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition-property: background-color; transition-duration: 3s;
+}
+
+.input-section {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.delete-section {
+    margin-top: 20px;
+}
+#field {
+  height: 200px;
+  border-bottom: 3px black groove;
+  position: relative;
+}
+
+#ball {
+  position: absolute;
+  cursor: pointer;
+}
+textarea {
+  display: block;
+  border: 1px solid #BBB;
+  color: #444;
+  font-size: 110%;
+}
+
+button {
+  margin-top: 10px;
+}
+#field {
+  height: 200px;
+  border-bottom: 3px black groove;
+  position: relative;
+}
+
+#ball {
+  position: absolute;
+  cursor: pointer;
+}
